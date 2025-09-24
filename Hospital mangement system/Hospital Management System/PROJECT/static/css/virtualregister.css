@@ -1,0 +1,73 @@
+.section-title {
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+.pricing .row {
+    padding-top: 0px;
+}
+
+.card {
+    margin-top: 57px;
+    border-radius: 8px 40px 40px 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 0px 8px 2px #ff6f61; /* Red: #ff6f61 */
+}
+
+.bg-dark {
+    background-color: #3498db; /* Blue: #3498db */
+    background-image: linear-gradient(315deg, #3498db 0%, #2c3e50 74%);
+}
+
+label {
+    color: #e74c3c; /* Red: #e74c3c */
+    margin-top: 15px;
+    font-family: 'Itim', cursive;
+}
+
+.jumbotron {
+    background-color: #3498db; /* Blue: #3498db */
+    background-image: linear-gradient(315deg, #3498db 0%, #2c3e50 74%);
+}
+
+#gender,
+#slot,
+#dept {
+    width: 300px;
+}
+
+.form-group input {
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #f39c12; /* Yellow: #f39c12 */
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: 'Itim', cursive;
+}
+
+option {
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid #f39c12; /* Yellow: #f39c12 */
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.form-group input:hover {
+    background-color: #ecf0f1; /* Light Blue: #ecf0f1 */
+}
+
+#btn {
+    background-color: #3498db; /* Blue: #3498db */
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    width: 300px;
+}
+
+#btn:hover {
+    background-color: #ffffff; /* White: #ffffff */
+    color: #3498db; /* Blue: #3498db */
+}
